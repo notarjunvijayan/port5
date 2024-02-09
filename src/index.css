@@ -1,0 +1,38 @@
+@font-face {
+    font-family: montreal;
+    src: url(/public/fonts/montreal.otf);
+}
+
+@font-face {
+    font-family: thin;
+    src: url(/public/fonts/thin.otf);
+}
+
+:root{
+    --body-background: #fafafa;
+    --text-color:black;
+    font-family: montreal;
+}
+
+[theme="dark"]{
+    --body-background:#080808;
+    --text-color:#fafafa;
+}
+
+body{
+    background-color: var(--body-background);
+    color: var(--text-color);
+    transition: 0.5s;
+    margin: 0;
+
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--body-background);
+    background: var(--text-color);
+  }
+  
+  ::selection {
+    color: var(--body-background);
+    background: var(--text-color);
+  }

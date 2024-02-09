@@ -1,0 +1,20 @@
+Command name argument expected.
+
+[m[1mAvailable command groups for gcloud builds:[m
+
+[m  [1mCI/CD[m
+      connections             Manage connections for Google Cloud Build.
+      repositories            Manage repositories for Cloud Build.
+      triggers                Create and manage build triggers for Google Cloud
+                              Build.
+      worker-pools            Manage worker pools for Google Cloud Build.
+
+[m[1mAvailable commands for gcloud builds:[m
+
+      cancel                  Cancel an ongoing build.
+      describe                Get information about a particular build.
+      list                    List builds.
+      log                     Stream the logs for a build.
+      submit                  Submit a build using Cloud Build.
+
+[m

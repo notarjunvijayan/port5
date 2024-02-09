@@ -1,0 +1,48 @@
+.about{
+    display: flex;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.about-left{
+    flex: 1;
+    display: flex;
+    width: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-left h2{
+    font-size: 3rem;
+    margin: 0%;
+    position: sticky;
+    top:50dvh;
+    transform: rotate(-90deg);
+}
+
+.about-right{
+    flex: 10;
+    text-align: right;
+    padding: 10rem 0;
+}
+
+.item-edu{
+    height: 10vh;
+    padding: 10rem 20rem 10rem 20rem;
+}
+
+.item-edu h3{
+    font-size: 2.5rem;
+    margin: 0%;
+}
+.item-edu h4{
+    font-size: 1.5rem;
+}
+.item-edu p{
+    font-size: 1.2rem;
+}
+
+
+.about::-webkit-scrollbar {
+    display: none;
+}
