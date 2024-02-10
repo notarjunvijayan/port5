@@ -1,9 +1,8 @@
 .hero{
-    height: 80vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    scroll-snap-align: start;
 }
 .left{
     flex: 1.7;
@@ -40,6 +39,9 @@
     height: 2.5rem;
     border-radius: 10rem;
     font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .right button:hover{
     background-color: var(--text-color);

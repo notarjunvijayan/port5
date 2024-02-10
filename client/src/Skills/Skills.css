@@ -1,0 +1,38 @@
+.skill-class{
+    padding: 5rem 15rem 5rem 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.skill-class h3{
+    font-size: 1.8rem;
+    margin: 0%;
+    transform: rotate(-90deg);
+    padding: 0 5rem 0 5rem;
+    width: 5rem;
+}
+
+.skill-class ul li{
+    font-size: 2.5rem;
+    list-style-type: none;
+    padding: 1rem 0;
+    text-align: right;
+}
+.skill-class ul{
+    margin: 0%;
+}
+@media screen and (max-width:900px) {
+
+    .skill-class{
+        height: 10vh;
+        padding: 10rem 1rem 10rem 1rem;
+    }
+    .skill-class h3{
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+    .skill-class ul li{
+        font-size: 1.5rem;
+    }
+}

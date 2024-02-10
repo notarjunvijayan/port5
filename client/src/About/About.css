@@ -8,8 +8,9 @@
     flex: 1;
     display: flex;
     width: 10vw;
-    align-items: center;
+    align-items: start;
     justify-content: center;
+    padding: 50vh 0;
 }
 
 .about-left h2{
@@ -45,4 +46,21 @@
 
 .about::-webkit-scrollbar {
     display: none;
+}
+
+@media screen and (max-width:900px) {
+
+    .about-left h2{
+        font-size: 1.5rem;
+    }
+    .item-edu{
+        height: 10vh;
+        padding: 10rem 1rem 10rem 1rem;
+    }
+    .item-edu h3{
+        font-size: 1.5rem;
+    }
+    .item-edu h4{
+        font-size: 1rem;
+    }
 }
