@@ -29,9 +29,9 @@ export default function Navbar() {
             <li>Blog</li>
         </ul>
         <div className="toggle">
-        <label class="switch">
+        <label className="switch">
           <input type="checkbox" onChange={setToggle}/>
-          <span class="slider round"></span>
+          <span className="slider round"></span>
         </label>
         </div>
     </div>
