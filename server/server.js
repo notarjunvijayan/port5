@@ -22,6 +22,18 @@ app.get('/projects',async(req,res)=>{
     }
 })
 
+app.get('/blog-list', async(req,res)=>{
+    try{
+        await client.connect()
+        const data = await client.db('Portfolio').collection("Blogs").find().toArray()
+        console.log(data)
+        res.status(200).send(data)
+    }catch(e){
+        console.log('ERROR')
+    }
+})
+
+
 app.listen(PORT,()=>{
     console.log("Server is live on port 8080")
 })

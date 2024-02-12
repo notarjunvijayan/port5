@@ -1,7 +1,7 @@
 .blog-hero{
     width: 100dvw;
     text-align: center;
-    height: 70vh;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,15 +11,23 @@
 .blog-hero p{
     width: 70vw;
 }
-
+.blog-title-card{
+    border:1px solid var(--text-color);
+    border-radius: 5rem;
+    padding: 0 2rem;
+    margin: 3rem 0;
+}
+blog-list h3{
+    margin-bottom: 0;
+}
+.blog-title-card:hover{
+    cursor: pointer;
+}
 .blog-list{
     padding: 0 3rem;
 }
 
 @media (min-width:900px) {
-    .blog-hero{
-        height: 30vh;
-    }
     .blog-hero h1{
         font-size: 4rem;
     }
@@ -29,6 +37,10 @@
     }
     .blog-list h2{
         font-size: 2.5rem;
+    }
+    .blog-list h3{
+        font-size: 1.5rem;
+        margin-bottom: 0;
     }
     .blog-list{
         padding: 0 5rem;
