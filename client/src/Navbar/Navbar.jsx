@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import './Navbar.css'
+import Blog from '../Blog/Blog'
 
 export default function Navbar() {
 
@@ -23,10 +25,10 @@ export default function Navbar() {
       <div className='navbar'>
         <h1>Arjun</h1>
         <ul>
-            <li><a href="#about-nav">About</a></li>
-            <li><a href="#projects-nav">Projects</a></li>
-            <li>Contact</li>
-            <li>Blog</li>
+            <li><a href="/#about-nav">Home</a></li>
+            <li><a href="/#projects-nav">Projects</a></li>
+            <li><a href='/#contact-navbar'>Contact</a></li>
+            <li><Link to="/blog">Blog</Link></li>
         </ul>
         <div className="toggle">
         <label className="switch">

@@ -1,0 +1,36 @@
+.blog-hero{
+    width: 100dvw;
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog-hero p{
+    width: 70vw;
+}
+
+.blog-list{
+    padding: 0 3rem;
+}
+
+@media (min-width:900px) {
+    .blog-hero{
+        height: 30vh;
+    }
+    .blog-hero h1{
+        font-size: 4rem;
+    }
+    .blog-hero p{
+        max-width: 30rem;
+        font-size: 1.2rem;
+    }
+    .blog-list h2{
+        font-size: 2.5rem;
+    }
+    .blog-list{
+        padding: 0 5rem;
+    }
+}

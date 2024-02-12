@@ -30,7 +30,7 @@
     font-size: 1.4rem;
 }
 
-.right button{
+.right .button{
     background-color: var(--body-background);
     color: var(--text-color);
     border: 1px solid var(--text-color);
@@ -43,7 +43,7 @@
     align-items: center;
     justify-content: center;
 }
-.right button:hover{
+.right .button:hover{
     background-color: var(--text-color);
     color: var(--body-background);
     transition: 0.2s;
