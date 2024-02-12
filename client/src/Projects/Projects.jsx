@@ -25,7 +25,7 @@ export default function Projects(){
     },[])
 
     return(
-        <div className="about">
+        <div className="about" id='projects-nav'>
             <div className="about-left">
                 <h2>Projects</h2>
             </div>

@@ -2,7 +2,7 @@ import './Hero.css'
 
 export default function Hero(){
     return(
-        <div className='hero'>
+        <div className='hero' id="about-nav">
         <div className="left">
             <div className="left-text"> 
                 <h1>Arjun Vijayan</h1>

@@ -23,8 +23,8 @@ export default function Navbar() {
       <div className='navbar'>
         <h1>Arjun</h1>
         <ul>
-            <li>About</li>
-            <li>Projects</li>
+            <li><a href="#about-nav">About</a></li>
+            <li><a href="#projects-nav">Projects</a></li>
             <li>Contact</li>
             <li>Blog</li>
         </ul>
