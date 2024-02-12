@@ -5,7 +5,7 @@ import './BlogData.css'
 
 export default function BlogData(){
 
-    const url = "http://localhost:8080"
+    const url = "https://portfolio-backend-4hz2uxv5lq-el.a.run.app"
     const [blog, setBlog] = useState({})
     const location = useLocation()
 

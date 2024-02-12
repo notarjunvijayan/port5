@@ -4,8 +4,7 @@ import './Projects.css'
 export default function Projects(){
     
     //Setting Connection Link to server
-    const url = "http://localhost:8080"
-
+    const url = "https://portfolio-backend-4hz2uxv5lq-el.a.run.app"
 
     const [details,setDetails] = useState([])
     const [show, setShow] = useState(false)
