@@ -1,7 +1,16 @@
 .contact-box{
-    padding:10rem;
+    padding:10rem 10rem 0 10rem;
 }
 
 .contact-box h2{
     font-size: 3rem;
+}
+
+@media screen and (max-width:900px) {
+    .contact-box h2{
+        font-size: 2rem;
+    }
+    .contact-box{
+        padding: 10rem 2rem 0 2rem;
+    }
 }
