@@ -17,7 +17,11 @@ export default function Hero(){
                     Wanna Get in Touch? Click the buttons below to get my resume or Contact me.
                 </p>
                 </div>
-                <a className='button' href="#contact-navbar">Contact</a>
+                <div className="buttons-hero">
+                    <a className='button' href="#contact-navbar">Contact</a>
+                    <a className='button' href="">Resume</a>
+                </div>
+
         </div>
         </div>
     )
