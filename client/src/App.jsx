@@ -6,13 +6,15 @@ import {Routes,Route } from 'react-router-dom'
 import HomeComps from './HomeComps'
 import Blog from './Blog/Blog'
 import BlogData from './Blog/BlogData'
+import Intro from './Intro/Intro'
 
 
 function App() {
 
   return (
     <>
-      <Navbar/>
+    <Intro/>
+    <Navbar/>
       <div className="container">
         <Routes>
           <Route path='/' element={<HomeComps/>}/>

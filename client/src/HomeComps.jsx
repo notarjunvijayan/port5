@@ -4,6 +4,7 @@ import Contact from './Contact/Contact'
 import Hero from './Hero/Hero'
 import About from './About/About'
 
+
 export default function HomeComps(){
     return(
         <>
