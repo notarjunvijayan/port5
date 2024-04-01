@@ -47,6 +47,7 @@
     align-items: center;
     justify-content: center;
     margin-right:1rem;
+    margin-top: 2rem;
 }
 .right .button:hover{
     background-color: var(--text-color);
@@ -64,11 +65,11 @@
     }
     .left{
         text-align: center;
-        height: 35vh;
         align-items: center;
+        height: 45vh;
     }
     .right h1{
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .right{
         align-items: center;
@@ -81,6 +82,7 @@
         padding: 0 2rem;
     }
     .my-img img{
-        width: 15rem;
+        width: 20rem;
     }
+
 }

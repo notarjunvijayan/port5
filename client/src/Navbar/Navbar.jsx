@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import Blog from '../Blog/Blog'
+import {motion} from "framer-motion"
 
 export default function Navbar() {
 
@@ -21,7 +22,11 @@ export default function Navbar() {
         }
   }
   return (
-    <div className="nav-container">
+    <motion.div className="nav-container"
+    initial={{y:-100}}
+    animate={{y:0}}
+    transition={{duration:0.2,delay:3.5}}
+    >
       <div className='navbar'>
         <h1>Arjun</h1>
         <ul>
@@ -37,6 +42,6 @@ export default function Navbar() {
         </label>
         </div>
     </div>
-    </div>
+    </motion.div>
   )
 }
