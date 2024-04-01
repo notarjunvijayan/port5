@@ -41,8 +41,10 @@ export default function Blog(){
                     blogs.map((item,key)=>{
                         return(
                             <div className="blog-title-card" onClick={()=>{navBlog(key)}}>
+                                <div className="blog-item-data">
                                 <h3>{item.Title}</h3>
                                 <p>{item.Date}</p>
+                                </div>
                             </div>
                         )
                     })
