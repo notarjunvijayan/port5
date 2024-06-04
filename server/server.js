@@ -10,7 +10,6 @@ const PORT = process.env.PORT || 3000;
 
 const client = new MongoClient(mongourl)
 
-
 app.get('/projects',async(req,res)=>{
     try{
         await client.connect()
@@ -35,7 +34,7 @@ app.get('/blog-list', async(req,res)=>{
 
 
 app.listen(PORT,()=>{
-    console.log("Server is live on port 8080")
+    console.log("Server is live on port 3000")
 })
 
 module.exports = app;
