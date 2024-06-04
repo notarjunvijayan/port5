@@ -6,7 +6,7 @@ const {MongoClient} = require('mongodb')
 const app = require('express')();
 app.use(cors())
 const mongourl = process.env.URI
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 const client = new MongoClient(mongourl)
 
