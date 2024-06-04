@@ -34,7 +34,7 @@ app.get('/blog-list', async(req,res)=>{
 
 
 app.listen(PORT,()=>{
-    console.log("Server is live on port 3000, enjoy!")
+    console.log("Server is live on port 3000")
 })
 
 module.exports = app;
