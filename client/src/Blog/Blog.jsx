@@ -4,7 +4,7 @@ import {useNavigate} from 'react-router-dom'
 
 export default function Blog(){
 
-    const url = "https://portfolio-backend-4hz2uxv5lq-el.a.run.app"
+    const url = "https://port5-backend.vercel.app"
     const [blogs,setBlogs] = useState([])
     const navigate = useNavigate()
 

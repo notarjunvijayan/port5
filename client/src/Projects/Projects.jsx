@@ -4,7 +4,7 @@ import './Projects.css'
 export default function Projects(){
     
     //Setting Connection Link to server
-    const url = "https://portfolio-backend-4hz2uxv5lq-el.a.run.app"
+    const url = "https://port5-backend.vercel.app"
 
     const [details,setDetails] = useState([])
     const [show, setShow] = useState(false)
