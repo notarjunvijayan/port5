@@ -37,3 +37,5 @@ app.get('/blog-list', async(req,res)=>{
 app.listen(PORT,()=>{
     console.log("Server is live on port 8080")
 })
+
+module.exports = app;
